@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/status_new_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fadeScrollbars="true"
+        android:gravity="left|top"
+        android:hint="@string/say_something"
+        android:scrollbarStyle="outsideOverlay"
+        android:scrollbars="vertical"
+        android:textSize="@dimen/weibo_text" />
+
+    <LinearLayout
+        android:id="@+id/ll_bottom_menu"
+        android:layout_width="match_parent"
+        android:layout_height="?android:actionBarSize"
+        android:background="@drawable/ab_bottom_solid_inverse_holo"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/menu_add_pic"
+            style="?android:actionButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/camera_light" />
+
+        <ImageButton
+            android:id="@+id/menu_at"
+            style="?android:actionButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/at_light" />
+
+        <ImageButton
+            android:id="@+id/menu_emoticon"
+            style="?android:actionButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/emoticon_light" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/menu_send"
+            style="?android:actionButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:drawableRight="@drawable/statusnewactivity_send_light"
+            android:text="@string/send"
+            android:textAppearance="?android:attr/actionMenuTextAppearance"
+            android:textColor="?android:actionMenuTextColor" />
+    </LinearLayout>
+
+    <com.vallny.jing.widget.SmileyPicker
+        android:id="@+id/smiley_picker"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/ab_bottom_solid_inverse_holo"
+        android:numColumns="7"
+        android:padding="10dp"
+        android:visibility="gone" />
+
+</LinearLayout>

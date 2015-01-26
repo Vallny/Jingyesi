@@ -1,0 +1,66 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:windowBackground">@color/window_background</item>
+    </style>
+
+    <style name="Jing" parent="Theme.Sherlock.Light.DarkActionBar">
+        <item name="actionBarStyle">@style/Widget.Styled.ActionBar</item>
+        <item name="android:actionBarStyle">@style/Widget.Styled.ActionBar</item>
+        <item name="android:windowBackground">@color/window_background</item>
+    </style>
+
+    <style name="Jing.Dark" parent="Theme.Sherlock">
+        <item name="actionBarStyle">@style/Widget.Styled.ActionBar</item>
+        <item name="android:actionBarStyle">@style/Widget.Styled.ActionBar</item>
+        <item name="android:windowBackground">@color/window_background</item>
+    </style>
+
+    <style name="Widget.Styled.ActionBar" parent="Widget.Sherlock.Light.ActionBar.Solid.Inverse">
+        <item name="background">@color/vallny</item>
+        <item name="android:background">@color/vallny</item>
+        <item name="backgroundSplit">@color/vallny</item>
+        <item name="android:backgroundSplit">@color/vallny</item>
+    </style>
+
+    <!-- GridLayout中的图片 -->
+    <style name="listViewMultiImageView">
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:layout_height">90dp</item>
+        <item name="android:layout_width">90dp</item>
+        <item name="android:layout_margin">2.5dp</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <style name="retweeted_listViewMultiImageView">
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_margin">2.5dp</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <!-- 微博条目指示器上字体 -->
+    <style name="TimelineIndicatorTextView">
+        <item name="android:textColor">@drawable/timeline_indicator_textcolor_selector</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:onClick">indicatorClick</item>
+    </style>
+
+</resources>

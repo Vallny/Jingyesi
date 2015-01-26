@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="5dp" >
+
+    <ImageView
+        android:id="@+id/user_icon"
+        android:layout_width="@dimen/login_list_icon"
+        android:layout_height="@dimen/login_list_icon"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="5dp" />
+
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        android:gravity="center_vertical"
+        android:textSize="@dimen/weibo_text" />
+
+</LinearLayout>

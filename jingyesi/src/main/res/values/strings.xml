@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">静夜思</string>
+    <string name="oauth_dialog_title">提示</string>
+    <string name="oauth_dialog_content">第一次登录需要授权</string>
+    <string name="dialog_positive">确定</string>
+    <string name="add">添加</string>
+    <string name="edit">写微博</string>
+
+    <!-- 网络连接错误 -->
+    <string name="online_error">网络连接异常，请检查网络设置</string>
+
+    <!-- 认证 -->
+    <string-array name="dialog_arr">
+        <item>网页版认证</item>
+        <item>官方客户端认证</item>
+    </string-array>
+
+    <string name="manage">帐号管理</string>
+    <string name="delete">删除</string>
+    <string name="already">该帐号已经授权，请勿重复授权！</string>
+    <string name="manage_dialog_message">数据处理中，请稍后...</string>
+
+    <!-- 下拉刷新 -->
+    <string name="refreshinglabel">加载微博中...</string>
+    <string name="pulllabel_up">下拉获取最新微博</string>
+    <string name="pulllabel_down">上拉加载更多</string>
+    <string name="releaselabel">释放开始加载</string>
+    <string name="lastupdatedlabel">最后加载时间:</string>
+
+    <!-- time -->
+    <string name="year">年前</string>
+    <string name="month">月前</string>
+    <string name="day">天前</string>
+    <string name="hour">小时前</string>
+    <string name="min">分钟前</string>
+    <string name="sec">秒前</string>
+    <string name="justnow">刚刚</string>
+    <string name="yesterday">昨天</string>
+    <string name="the_day_before_yesterday">前天</string>
+    <string name="today">今天</string>
+    <string name="date_format">M月d日 HH:mm</string>
+    <string name="year_format">yyyy年 M月d日 HH:mm</string>
+
+    <!-- 写微博 -->
+    <string name="write_weibo">写微博</string>
+    <string name="say_something">说点什么吧...</string>
+    <string name="send">发送</string>
+    <string name="content_cant_be_empty">内容不能为空</string>
+    <string name="sending">发送中</string>
+    <string name="send_successfully">发送成功</string>
+    <string name="dont_have_the_last_picture">没有找到拍过的照片</string>
+    <string name="cant_insert_album">发生意外，无法写入相册</string>
+    <string name="dont_have_camera_app">该设备没有拍照应用</string>
+    <string name="share_pic">分享图片</string>
+    <string name="send_photo">发送图片中</string>
+    <string name="check_pic">选择</string>
+    <string name="show_pic">显示图片</string>
+    <string name="send_failed">发送失败</string>
+    <string name="send_faile_click_to_open">发送失败，点击打开</string>
+    <string name="remove_pic">删除图片</string>
+    <string name="remove_pic_title">提示</string>
+    <string name="confirm_remove_pic">确认删除？</string>
+    <string name="remove_pic_positive">确定</string>
+    <string name="remove_pic_negation">取消</string>
+
+    <string-array name="dialog_add_pic">
+        <item>刚拍的照片</item>
+        <item>拍照</item>
+        <item>图库</item>
+    </string-array>
+
+    <!-- SDCard -->
+    <string name="something_error">发生故障</string>
+    <string name="please_deleted_cache_dir">权限出错，无法读取存储空间，需要用户手动删除SD卡下的 /Android/data/com.vallny.jing 目录</string>
+    <string name="ok">确定</string>
+
+    <!-- SlidingMenu -->
+    <string name="public_time_line">公    共</string>
+    <string name="friends_time_line">朋    友</string>
+
+    <!-- TAG -->
+    <item name="tag_msg_bean" type="id"></item>
+    <item name="tag_dbuser_bean" type="id"></item>
+    <string name="repost">转发</string>
+    <string name="comment">评论</string>
+
+</resources>
